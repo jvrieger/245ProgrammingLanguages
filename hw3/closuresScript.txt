@@ -1,0 +1,42 @@
+Script started on 2023-10-25 19:03:13-04:00 [TERM="xterm-256color" TTY="/dev/pts/17" COLUMNS="125" LINES="18"]
+jrieger@cozi:~/cs245/hw3$ go run closures/[K.go 
+test run: standard geometric series
+1
+4
+9
+16
+25
+36
+
+test run: arithmetic series by 5s
+5
+10
+15
+20
+25
+30
+
+additional tests:
+Odds starting at 1
+Geometric starting at index 5
+Arithmetic starting at index 3
+next O: 1
+next G: 25
+next A: 15
+next O: 3
+next G: 36
+next A: 20
+next O: 5
+next G: 49
+next A: 25
+next O: 7
+next G: 64
+next O: 9
+next O: 11
+next O: 13
+next O: 15
+next O: 17
+jrieger@cozi:~/cs245/hw3$ exit
+exit
+
+Script done on 2023-10-25 19:03:37-04:00 [COMMAND_EXIT_CODE="0"]

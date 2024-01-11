@@ -1,0 +1,32 @@
+{
+   "students": [
+
+      {
+         "firstName": "Julia",
+         "lastName": "Rieger",
+         "id": "121321",
+         "age": 19,
+         "dateOfBirth": {"year": 2004, "month": "April", "day": 21},
+         "favoriteRealNumber": 3.14
+      },
+
+      {
+        "firstName": "Alana",
+        "lastName": "Burgess",
+        "id": "121322",
+        "age": 22,
+        "dateOfBirth": {"year": 2002, "month": "April", "day": 20},
+        "favoriteRealNumber": 11
+     },
+
+     {
+        "firstName": "Rosie",
+        "lastName": "Savelson",
+        "id": "121323",
+        "age": 19,
+        "dateOfBirth": {"year": 2004, "month": "March", "day": 24},
+        "favoriteRealNumber": 24.0
+     }
+
+   ]
+}

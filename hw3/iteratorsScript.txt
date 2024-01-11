@@ -1,0 +1,47 @@
+Script started on 2023-10-26 17:55:21-04:00 [TERM="xterm-256color" TTY="/dev/pts/8" COLUMNS="192" LINES="43"]
+jrieger@cozi:~/cs245/hw3$ code Room.javaCourse.javaTeacher.javals[Kcode Teacher.java[1PCourse.java[2PRoom.java[Kgo run iterator.go 
+1) testing iterator
+next element: 0 valid: true
+next element: 2 valid: true
+next element: 4 valid: true
+next element: 6 valid: true
+next element: 8 valid: true
+
+2) verify iterators do not interact
+
+printing e1 of a
+	next element: 0 valid: true
+printing e1 of b
+	next element: 1 valid: true
+printing e2 of a
+	next element: 2 valid: true
+printing e2 of b
+	next element: 3 valid: true
+printing e3 of a
+	next element: 4 valid: true
+printing e3 of b
+	next element: 5 valid: true
+
+3) testing changing slice contents
+original slice: [1 2 3 4 5]
+
+after changing slice content: 
+next element: 6 valid: true
+next element: 7 valid: true
+next element: 8 valid: true
+next element: 9 valid: true
+next element: 10 valid: true
+
+4) testing appending new items to slice
+original slice: [1 2 3 4 5]
+
+after changing slice content: 
+next element: 1 valid: true
+next element: 2 valid: true
+next element: 3 valid: true
+next element: 4 valid: true
+next element: 5 valid: true
+jrieger@cozi:~/cs245/hw3$ exit
+exit
+
+Script done on 2023-10-26 17:55:40-04:00 [COMMAND_EXIT_CODE="0"]

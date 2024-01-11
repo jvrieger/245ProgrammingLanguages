@@ -1,0 +1,56 @@
+Julia Rieger
+9/12/23
+Homework 1
+
+The first part is simply a copy of your public key. DO NOT include your private key. (Never give anyone your private key.)
+The second part is a listing to every UNIX command used in this assignment and a brief description of what that command does. The descriptions can be very brief (for instance, for mkdir "make a directory" is sufficient. If a command used an optional argument (for instance ls -a) your description should include a description of the effect of that argument. For all UNIX commands, you can get a blizzard of information by entering the command
+        man COMMAND
+    
+Often (but not always) you can get similar information by entering
+        COMMAND --help
+    
+part 3 -- less than one page. One of the major differences between Go and Rust is the use -- or non-use -- of a semi-colon to end lines. Which do you prefer and why? Be very specific in your discussion. I am looking for opinions, but backed by logic. You might read The semi-colon wars for some thoughts on this topic.
+Citations:most (all) of the material you will need to write this report is available of the web. Use it. Cite it. If you directly quote, then indicate that you are directly quoting.
+
+You may submit this report either as a plain text file or a PDF. Do NOT submit in any other format.
+
+1) My public key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC73MITzt69QbE1bFpyQZfBec8KnhN9+3n59vGz8MxsYUbSIDTEWFwz51I9yfRlAILi
+9FNJVAcD0OjRtABBH38qN0RNhAEArTrfpDJHVhHDPWtwp3pa/NvR7QTEPpMngJcGo4kCxf3S1FxbfLggBXDpAQeVDdAYk4j6/qu32M3D
+x7fxQ2Nfxh9ZYjE+fGMG67uMKxlsh3E+Mwfncl8QrEjFtRwycIv2CTwJQ9gqcEbtqKUUwJRb3Q1B197SJEwrW7z+iWimarQ8czu3y8pY
+9AaGPwFe/LG4OlH970ZKko07UwlDOLksz1aIqjXDzddAW2/0JgW5X7qUpWflagaVkca55x9K/culKo5h16r62g5waqr60h8DpNNgHcbB
+YaxXtxFsnsVqkTJvblGG4FUA65DqynCyHBq7UOIlxRZWeHY5XRWVmRt4vjIwASwJLSUcaOnZ4xNZxMxwE+W7RX3j0mgnefZOLl1ugPvW
+bWOTJpug6PSnTlxQ4DIrDD7/VqZGb5k= thespicybeast@wc117-dhcp-71.brynmawr.edu
+
+2) Every UNIX command used in this assignment:
+    cd: changes the directory you're viewing
+    ls: lists the files or directories in the directory you're viewing
+    ssh: provides a connection between two hosts over a network
+    code: opens VSCode
+    mkdir: makes a directory
+    more: expands a file to show what text is inside
+    scp: secure copy-transfers files between two hosts
+    cat: means concatenate, will display/output data from a file
+    exit: exit a host
+    touch: create empty file
+
+3) The Semicolon Wars briefly mentions a link between programming langauges and spoken languages, and 
+specifically notes the appreciation ethnologists have for "linguistic diversity." While I can appreaciate
+the ways having different ways to express and communicate is invaluable, I agree with Hayes in that it can
+be very convoluted to have so many different syntax conventions without much other purpose than to be different.
+Like natural language, I understand how puncuation, perhaps with a semicolon, is necessary to convey ideas 
+accurately and with ease of standard. However, thinking more in depth over how dialects form and evolve--through
+function over standard, I understand and even stand more firmly on the other side of the debate, in which 
+there are times where semicolons (in grammar or syntax) do not offer benefits to language, and may even take away
+due to the extra time and errors they cause (for no apparent benefit?). I believe people use and adapt language
+from the standard to something that is more functional in practice, which can be seen with C and Go. C, the
+origin, and perhaps could be considered the standard in this context, may be the more gramatically or syntaxically
+'correct' language, while Go has looser rules around semicolons. Because Go was created by programmers, users 
+of the language, and were created much more recently than C, it only follows that users of the language (programmers)
+find it unecessary to require semicolons. While these patterns naturally occur in spoken language (ex/ You will
+be looked down on gramatically for starting a sentence with "And," yet when speaking people often do), in
+programming languages which people must very intentionally create, these patterns cannot occur naturally.
+Therefore decisions must be made within the community for there to be modernizing change. Because the developers
+of Go, clearly experienced programmers, did not find it necessary to require semicolons, we have a decently
+credible opinion on whether they are necessary in programming languages, that I would agree with.
+
+Citations: "The Semicolon Wars"-American Scientist, Brian Hayes https://www.americanscientist.org/article/the-semicolon-wars
